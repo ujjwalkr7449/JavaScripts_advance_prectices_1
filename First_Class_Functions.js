@@ -7,3 +7,7 @@ function greet() {
 const message = greet;
 
 console.log(message());
+
+
+const a = greet;   // Stores the function
+const b = greet(); // Stores the returned value
