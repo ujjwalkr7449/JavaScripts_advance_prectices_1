@@ -6,3 +6,9 @@
     console.log(message);
 })();
 // (function(){})();
+
+//Arrow function IIFE
+(() => {
+    const message = "I run immediately!";
+    console.log(message);
+})();
