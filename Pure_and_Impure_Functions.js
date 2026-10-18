@@ -6,3 +6,14 @@ let total = 10;
 function add(a, b) {
     return a + b;
 }
+
+// Impure function
+function addToTotal(value) {
+    total += value;
+    return total;
+}
+
+console.log(add(5, 3));
+
+console.log(addToTotal(5));
+console.log(addToTotal(5));
